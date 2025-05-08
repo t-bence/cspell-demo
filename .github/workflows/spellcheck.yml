@@ -1,0 +1,12 @@
+name: 'Check spelling'
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+  push:
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
