@@ -10,3 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: streetsidesoftware/cspell-action@v6
+        with:
+            strict: true
+            incremental_files_only: false # check all files, not just modified ones
