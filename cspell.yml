@@ -20,7 +20,7 @@ dictionaries:
 # contains English text like package descriptions).
 useGitignore: true
 ignorePaths:
-   - '.cspell.yaml'
+   - 'cspell.yml'
 
 ignoreRegExpList:
   # GitHub Security Advisories

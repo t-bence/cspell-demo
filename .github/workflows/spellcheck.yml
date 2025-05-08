@@ -13,3 +13,4 @@ jobs:
         with:
             strict: true
             incremental_files_only: false # check all files, not just modified ones
+            inline: error

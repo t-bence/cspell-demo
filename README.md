@@ -7,4 +7,4 @@ Source:
 - <https://github.com/apollographql/apollo-server/blob/main/cspell.yaml>
 - documentation :)
 
-Here is a tpyo
+Here is an intentional tpyo
